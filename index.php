@@ -5,9 +5,6 @@
 	<meta charset="UTF-8">
 	<title>Poliklinik Web Sitesi</title>
     <link rel="stylesheet" type="text/css" href="template/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">
-    <a href="assets/js/bootstrap.min.js">bootstrap.min.js</a>
 </head>
 <body>
 	<div id="header">

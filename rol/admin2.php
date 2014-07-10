@@ -67,7 +67,7 @@ $(document).ready(function(){
 
 			<form role="form" style="width:400px; margin: 0 auto;" method="POST" >
 				<div class="required-field-block">
-					<input  type="text" placeholder="Tc No"  name="tc_no" class="form-control">
+					<input  type="text" placeholder="Tc No"  name="tc_no" class="form-control" value="<?php echo isset($yaz['tc_no'])?  $yaz['tc_no'] : null; ?>">
 					<div class="required-icon">
 						<div class="text">*</div>
 					</div>
