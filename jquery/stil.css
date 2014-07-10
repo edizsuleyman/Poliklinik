@@ -1,0 +1,152 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#ust-bolum {
+	padding:5px 10px 5px 10px;
+	background-color:#F4F4F4;
+	border-top:2px solid #D1D1D1;	
+	border-bottom:1px solid #DEDEDE;
+	height:27px;
+}
+
+#panel {
+	float:right;
+	padding-right:20px;
+}
+
+ul#menu {
+	margin:0;
+	padding:0;
+	font:normal 11px Tahoma, Geneva, sans-serif;
+	/*width:500px;*/
+	height:23px;
+}
+
+ul#menu li.temel {
+	list-style-type:none;
+	/*width:150px;*/
+	display:inline-block;
+	float:left;
+}
+
+ul#menu li.temel > a {
+	font-weight:bold;
+	padding:5px 10px 6px 10px; /* -1px top, 5+1= 6px */
+	display:block;
+	text-decoration:none;
+	outline:none;
+}
+
+#alt-menu-li a#kullanici {
+	position:relative;
+	z-index:5;
+}
+
+#alt-menu-li a#doktor {
+	position:relative;
+	z-index:5;
+}
+
+#alt-menu-li a#personel {
+	position:relative;
+	z-index:5;
+}
+
+
+.menu-kapali {
+	color:#444;	
+	border:1px solid #F4F4F4;
+	border-bottom:none;	
+}
+
+.menu-acik {
+	background-color:#FFF;
+	border-left:1px solid #E7E7E7;		
+	border-right:1px solid #E7E7E7;	
+	border-top:1px solid #E7E7E7;
+	border-bottom:none;
+	/*border-top-left-radius:3px;
+	border-top-right-radius:3px;*/
+}
+
+ul#menu li.temel > a:hover {
+	color:#0066CC;	
+}
+
+/*
+#alt-menu-li:hover ul#alt-menu {
+	display:block;
+}
+*/
+
+/* --- alt menü için ----------------------------------------------- */
+
+ul#menu li ul#alt-menu {
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:30px;
+	margin-top:-1px;
+	width:180px;
+	background-color:#FFF;
+	border:1px solid #E7E7E7;		
+	display:none;
+	z-index:1;
+	/*border-radius:3px;
+	border-top-right-radius:0;*/
+}
+
+ul#alt-menu li {
+	display:block;
+}
+
+ul#menu li ul#alt-menu a {
+	font-weight:normal;
+	padding:5px 10px 5px 10px;
+	display:block;
+	color:#444;
+	text-decoration:none;
+	outline:none;
+}
+
+ul#menu li ul#alt-menu a:hover {
+	color:#0066CC;
+	background-color:#EFEFEF;	
+}
+
+/* --- profil DIV ---------------------------------------------------------- */
+
+#profil {
+	color:#444;
+	background-color:#FFF;
+	padding:4px;
+	height:41px;
+	/*border-top:1px solid #DEDEDE;*/
+	border-bottom:1px solid #EAEAEA;
+}
+
+#profil #profil-resim {
+	background-color:#3C3;
+	float:left;
+	width:31px;
+	height:40px;
+}
+
+#profil #profil-resim img {
+	width:31px; /*51px;*/
+	height:40px; /*66px;*/
+}
+
+#profil #profil-bilgi {
+	float:left;
+	padding:3px 10px 0 10px;
+	cursor:default;
+}
+
+#profil #profil-bilgi span {
+	display:block;
+	padding:1px;
+}/* CSS Document */
+
